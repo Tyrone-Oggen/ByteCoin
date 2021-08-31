@@ -2,8 +2,8 @@
 //  CoinManager.swift
 //  ByteCoin
 //
-//  Created by Angela Yu on 11/09/2019.
-//  Copyright © 2019 The App Brewery. All rights reserved.
+//  Created by Tyrone Oggen on 2021/08/31.
+//  Copyright © 2021 Tyrone Oggen. All rights reserved.
 //
 
 import Foundation
