@@ -44,7 +44,6 @@ extension ViewController: UIPickerViewDelegate {
         let selectedCurrency = coinManager.currencyArray[row]
         coinManager.getCoinPrice(for: selectedCurrency)
     }
-    
 }
 
 extension ViewController: CoinManagerDelegate {
