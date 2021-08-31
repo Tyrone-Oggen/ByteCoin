@@ -46,6 +46,7 @@ extension ViewController: UIPickerViewDelegate {
     }
 }
 
+//MARK: - CoinManagerDelegate UI management
 extension ViewController: CoinManagerDelegate {
     func didUpdateCoin(price: String, currency: String) {
         DispatchQueue.main.async {
@@ -57,6 +58,4 @@ extension ViewController: CoinManagerDelegate {
     func didFailWithError(error: Error) {
         print(error)
     }
-    
-    
 }
